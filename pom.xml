@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>syshumres</artifactId>
+    <groupId>com.sip</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>syshumres-repositories</artifactId>
+  <packaging>jar</packaging>
+
+  <dependencies>
+    <dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-devtools</artifactId>
+		<scope>runtime</scope>
+		<optional>true</optional>
+	</dependency>
+    <dependency>
+	    <artifactId>syshumres-entities</artifactId>
+	    <groupId>com.sip</groupId>
+	    <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+  
+  <properties>
+     <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+  </properties>
+  
+</project>
