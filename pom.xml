@@ -17,6 +17,7 @@
 		<scope>runtime</scope>
 		<optional>true</optional>
 	</dependency>
+	<!-- Entities -->
     <dependency>
 	    <artifactId>syshumres-entities</artifactId>
 	    <groupId>com.sip</groupId>
